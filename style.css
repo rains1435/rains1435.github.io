@@ -47,6 +47,19 @@ a {
 .card {
     color: black;
     text-align: left;
+    height: 50vh;
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: 70vh;
+    }
+}
+
+@media (max-width: 575px) {
+    .card {
+        height: 40vh;
+    }
 }
 
 .card-title {
